@@ -1,0 +1,592 @@
+/*=========================== VARIABLES ==============================*/
+/*dark blue*/
+/*light blue*/
+/* line 12, ../sass/styles.scss */
+body {
+  background-color: #fff;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* line 17, ../sass/styles.scss */
+h1, h6 {
+  text-transform: capitalize;
+}
+
+/* line 20, ../sass/styles.scss */
+h1, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* line 23, ../sass/styles.scss */
+h1 {
+  font-size: 2.5em;
+  color: #7b9aba;
+}
+/* line 26, ../sass/styles.scss */
+h1 span {
+  color: #9cb8d5;
+}
+
+/* line 30, ../sass/styles.scss */
+h5, h6 {
+  color: #767676;
+  font-weight: bold;
+}
+
+/* line 34, ../sass/styles.scss */
+p {
+  line-height: 1.8;
+  color: #989898;
+}
+
+/*=========================== LOGO + NAVBAR ==============================*/
+/* line 40, ../sass/styles.scss */
+.logo h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 29px;
+  font-weight: bold;
+  color: #7b9aba;
+  position: absolute;
+}
+/* line 47, ../sass/styles.scss */
+.logo h1 span {
+  color: #9cb8d5;
+}
+
+/* line 52, ../sass/styles.scss */
+.logo-in-text {
+  color: #7b9aba;
+  font-weight: bold;
+}
+/* line 55, ../sass/styles.scss */
+.logo-in-text span {
+  color: #9cb8d5;
+}
+
+/* line 59, ../sass/styles.scss */
+nav.navbar {
+  margin: 10px;
+}
+
+/* line 62, ../sass/styles.scss */
+.top-nav-button {
+  display: none;
+  font-size: 2.2em;
+  padding: 13px;
+  color: #7b9aba;
+  float: right;
+}
+/* line 68, ../sass/styles.scss */
+.top-nav-button:hover, .top-nav-button:focus {
+  color: #9cb8d5;
+}
+
+/* line 72, ../sass/styles.scss */
+ul.top-nav {
+  text-align: right;
+  list-style: none;
+  font-weight: bold;
+  padding: 30px 0;
+  display: block;
+}
+/* line 78, ../sass/styles.scss */
+ul.top-nav li {
+  display: inline-block;
+}
+/* line 80, ../sass/styles.scss */
+ul.top-nav li a {
+  padding: 20px 10px;
+  color: #b9bbbd;
+  transition: 0.5s;
+  text-decoration: none;
+}
+/* line 85, ../sass/styles.scss */
+ul.top-nav li a:hover {
+  color: #7b9aba;
+}
+
+/*=========================== MAIN TITLE (BANNER) ==============================*/
+/* line 92, ../sass/styles.scss */
+.title {
+  text-align: center;
+  background: url(../images/clouds.jpg) top center no-repeat;
+  background-size: 100% auto;
+  padding: 20px 0;
+}
+/* line 97, ../sass/styles.scss */
+.title h1 {
+  margin-bottom: 30px;
+}
+/* line 100, ../sass/styles.scss */
+.title p {
+  width: 30%;
+  margin: 0 auto;
+}
+
+/*=========================== ABOUT US ==============================*/
+/* line 106, ../sass/styles.scss */
+.about-us {
+  margin: 65px 0;
+}
+/* line 109, ../sass/styles.scss */
+.about-us img {
+  width: 100%;
+}
+/* line 112, ../sass/styles.scss */
+.about-us h6 {
+  margin-top: 80px;
+}
+/* line 115, ../sass/styles.scss */
+.about-us h1 {
+  margin-top: 30px;
+  width: 70%;
+}
+/* line 119, ../sass/styles.scss */
+.about-us p {
+  margin-top: 40px;
+}
+
+/*=========================== ABOUT PRODUCT ==============================*/
+/* line 124, ../sass/styles.scss */
+.about-product {
+  text-align: center;
+  margin-bottom: 50px;
+}
+/* line 127, ../sass/styles.scss */
+.about-product p {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/*=========================== BOOTSTRAP CAROUSEL ==============================*/
+/* line 133, ../sass/styles.scss */
+.carousel .fa {
+  color: #5e93aa;
+  font-size: 30px;
+}
+
+/* line 138, ../sass/styles.scss */
+.carousel p {
+  width: 30%;
+  margin: 0 auto;
+}
+/* line 142, ../sass/styles.scss */
+.carousel img {
+  margin: 0 auto;
+  padding: 45px 0 18px;
+  padding-top: 60px;
+}
+
+/* line 148, ../sass/styles.scss */
+.caption-top {
+  position: absolute;
+  top: 0;
+  right: 15%;
+  left: 15%;
+}
+
+/*=========================== ADVANTAGES SECTION ==============================*/
+/* line 155, ../sass/styles.scss */
+.advantages {
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+  background-color: #b7d5ed;
+  background-image: radial-gradient(circle at 50% 45%, #dbebf6 0%, #dbebf6 30%, #c6e0f1 30%, #c6e0f1 40%, #bdd9ee 40%, #bdd9ee 50%, #b7d5ed 50%);
+}
+/* line 164, ../sass/styles.scss */
+.advantages h6, .advantages h5, .advantages p, .advantages .logo-in-text, .advantages .logo-in-text span {
+  color: #597991;
+}
+/* line 167, ../sass/styles.scss */
+.advantages h5 {
+  font-size: 17px;
+  margin: 20px;
+}
+/* line 171, ../sass/styles.scss */
+.advantages h6 {
+  margin-top: 50px;
+}
+/* line 174, ../sass/styles.scss */
+.advantages .row {
+  margin-bottom: 20px;
+}
+
+/* line 180, ../sass/styles.scss */
+.advantages-title h1, .pricing h1 {
+  color: #fff;
+  margin-bottom: 25px;
+}
+/* line 184, ../sass/styles.scss */
+.advantages-title p, .pricing p {
+  width: 40%;
+  margin: 0 auto;
+}
+
+/* line 189, ../sass/styles.scss */
+.pricing {
+  padding-bottom: 150px;
+}
+
+/*=========================== PRICE LIST (PLANS) ==============================*/
+/* line 193, ../sass/styles.scss */
+section.plans {
+  position: relative;
+  margin-bottom: -70px;
+}
+
+/* line 197, ../sass/styles.scss */
+.wrapper-for-plans {
+  position: relative;
+  top: -144px;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 203, ../sass/styles.scss */
+.plan {
+  background: white;
+  display: inline-block;
+  width: 25%;
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transition: -moz-transform 1s;
+  -o-transition: --o-transform 1s;
+  -ms-transition: -ms-transform 1s;
+  transition: transform 1s;
+}
+/* line 214, ../sass/styles.scss */
+.plan:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/* line 221, ../sass/styles.scss */
+.plan h4 {
+  font-weight: bold;
+  color: #5e93aa;
+  margin: 15px;
+  font-size: 24px;
+}
+/* line 227, ../sass/styles.scss */
+.plan h5 {
+  padding-top: 15px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+/* line 233, ../sass/styles.scss */
+.plan figure {
+  position: relative;
+}
+/* line 235, ../sass/styles.scss */
+.plan figure img {
+  padding: 0 20px;
+  width: 100%;
+}
+/* line 239, ../sass/styles.scss */
+.plan figure figcaption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: #fff;
+  bottom: 5px;
+  top: 0px;
+  opacity: 0;
+  padding: 65px 0;
+  transition: opacity 0.5s;
+}
+/* line 249, ../sass/styles.scss */
+.plan figure figcaption:hover {
+  opacity: 0.8;
+}
+/* line 252, ../sass/styles.scss */
+.plan figure figcaption p {
+  color: #767676;
+  width: 100%;
+}
+/* line 255, ../sass/styles.scss */
+.plan figure figcaption p span {
+  font-weight: bold;
+}
+/* line 261, ../sass/styles.scss */
+.plan input[type="submit"] {
+  width: 100%;
+  border: none;
+  color: white;
+  background-color: #5e93aa;
+  padding: 15px;
+  text-transform: capitalize;
+}
+
+/* line 270, ../sass/styles.scss */
+.first-plan, .second-plan {
+  margin-right: 30px;
+}
+
+/*=========================== FOOTER ==============================*/
+/* line 274, ../sass/styles.scss */
+footer {
+  margin-bottom: 40px;
+}
+/* line 276, ../sass/styles.scss */
+footer .footer-wrapper {
+  border-top: 1px solid #eeeeee;
+  padding-top: 30px;
+}
+/* line 280, ../sass/styles.scss */
+footer p {
+  color: #bdbdbd;
+}
+
+/* line 284, ../sass/styles.scss */
+ul.contact {
+  list-style: none;
+  text-align: right;
+  margin-top: 20px;
+}
+/* line 288, ../sass/styles.scss */
+ul.contact li {
+  display: inline-block;
+}
+/* line 290, ../sass/styles.scss */
+ul.contact li a {
+  background: #dedede;
+  padding: 4px 6px;
+  border-radius: 50%;
+  font-size: 18px;
+  color: #fff;
+  margin-left: 10px;
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  -o-transition: background 1s;
+  -ms-transition: background 1s;
+  transition: background 1s;
+}
+/* line 303, ../sass/styles.scss */
+ul.contact li a:hover {
+  background: #bdbdbd;
+}
+
+/* line 309, ../sass/styles.scss */
+ul.contact li:first-child a {
+  padding: 4px 9px;
+}
+
+/* ================================== MEDIA =================================== */
+@media (max-width: 991px) {
+  /* line 318, ../sass/styles.scss */
+  h1 {
+    font-size: 2em;
+  }
+
+  /* line 321, ../sass/styles.scss */
+  .title h1 {
+    margin: 10px 0px 20px 0px;
+  }
+
+  /* line 324, ../sass/styles.scss */
+  .title p {
+    width: 70%;
+  }
+
+  /* line 327, ../sass/styles.scss */
+  .about-us h6 {
+    margin-top: 50px;
+  }
+
+  /* line 330, ../sass/styles.scss */
+  .about-us h1 {
+    margin-top: 20px;
+  }
+
+  /* line 333, ../sass/styles.scss */
+  .about-us p {
+    margin-top: 20px;
+  }
+
+  /* line 336, ../sass/styles.scss */
+  .carousel img {
+    width: 25%;
+  }
+
+  /* line 339, ../sass/styles.scss */
+  .carousel p {
+    width: 40%;
+  }
+
+  /* line 342, ../sass/styles.scss */
+  .product-picture {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 348, ../sass/styles.scss */
+  .top-nav-button {
+    display: inline-block;
+  }
+
+  /* line 351, ../sass/styles.scss */
+  ul.top-nav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    text-align: left;
+    background-color: #fff;
+    width: 100%;
+    z-index: 10;
+  }
+
+  /* line 361, ../sass/styles.scss */
+  ul.top-nav li {
+    display: block;
+    padding: 10px;
+  }
+
+  /* line 365, ../sass/styles.scss */
+  .title p,
+  .about-product p,
+  .advantages-title p {
+    width: 90%;
+  }
+
+  /* line 370, ../sass/styles.scss */
+  .about-us img {
+    display: none;
+  }
+
+  /* line 373, ../sass/styles.scss */
+  .about-us {
+    text-align: center;
+  }
+
+  /* line 376, ../sass/styles.scss */
+  .about-us h1 {
+    width: 100%;
+  }
+
+  /* line 379, ../sass/styles.scss */
+  .about-us h6 {
+    margin-top: 0;
+  }
+
+  /* line 382, ../sass/styles.scss */
+  .product-picture {
+    width: 60%;
+  }
+
+  /* line 385, ../sass/styles.scss */
+  section.plans {
+    margin-bottom: -145px;
+  }
+
+  /* line 388, ../sass/styles.scss */
+  .plan {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+
+  /* line 394, ../sass/styles.scss */
+  .plan:hover {
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+
+  /* line 401, ../sass/styles.scss */
+  .icon {
+    display: none;
+  }
+
+  /* line 404, ../sass/styles.scss */
+  .wrapper-for-plans {
+    background: #b7d5ed;
+  }
+
+  /* line 407, ../sass/styles.scss */
+  footer {
+    margin-bottom: 20px;
+  }
+
+  /* line 410, ../sass/styles.scss */
+  ul.contact {
+    padding-left: 0;
+  }
+
+  /* line 413, ../sass/styles.scss */
+  ul.contact, footer p {
+    text-align: center;
+  }
+
+  /* line 416, ../sass/styles.scss */
+  footer .logo {
+    display: none;
+  }
+}
+@media (max-width: 590px) {
+  /* line 422, ../sass/styles.scss */
+  h1 {
+    font-size: 1.8em;
+  }
+
+  /* line 425, ../sass/styles.scss */
+  .about-us {
+    margin: 30px 0;
+  }
+
+  /* line 428, ../sass/styles.scss */
+  .carousel p {
+    width: 70%;
+  }
+}
+@media (max-width: 480px) {
+  /* line 434, ../sass/styles.scss */
+  .plan {
+    width: 70%;
+  }
+
+  /* line 437, ../sass/styles.scss */
+  .about-product {
+    margin-bottom: 0px;
+  }
+
+  /* line 440, ../sass/styles.scss */
+  .advantages {
+    margin-top: 0px;
+  }
+
+  /* line 443, ../sass/styles.scss */
+  .pricing {
+    padding-bottom: 120px;
+  }
+}
+@media (max-width: 375px) and (max-device-width: 375px) {
+  /* line 449, ../sass/styles.scss */
+  h1 {
+    font-size: 1.4em;
+  }
+
+  /* line 452, ../sass/styles.scss */
+  .carousel img {
+    width: 30%;
+  }
+
+  /* line 455, ../sass/styles.scss */
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    top: 40%;
+  }
+}
+@media (min-width: 768px) {
+  /* line 462, ../sass/styles.scss */
+  ul.top-nav {
+    display: block !important;
+  }
+}
