@@ -252,10 +252,15 @@
 
 		<!-- =============================SCRIPTS=============================== -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="bootstrap3.3.7/javascripts/bootstrap.min.js"></script>
+    <script src="static/javascripts/bootstrap.min.js"></script>
     <script>
-    	$('.mobile_menu_click').click(function(){
+    	$('.mobile_menu_click, .top-nav').click(function(){
        $('.top-nav').fadeToggle();
+    	});
+
+    	$(document).click(function(event) {
+    		if ($(event.target).closest('.top-nav-button').length ) return;
+    		$('.top-nav').fadeOut('.top-nav');
     	});
   	</script>
 	</body>		

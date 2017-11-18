@@ -247,10 +247,10 @@ section.plans {
 		    padding: 65px 0;
 		    transition: opacity 0.5s;
 		    	&:hover {
-		    		opacity: 0.8;
+		    		opacity: 0.9;
 		    	}
 				 	p {
-				 		color: #767676;
+				 		color: #5b5959;
 				 		width: 100%;
 				 		 span {
 				 			font-weight: bold;
@@ -302,7 +302,10 @@ ul.contact {
 
 		    	&:hover {
 			    	background: #bdbdbd;
-		    	};
+		    	}
+		    	&:visited {
+		    		background: #dedede;
+		    	}
 			}
 	 }
 }
