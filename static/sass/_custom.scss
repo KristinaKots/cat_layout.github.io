@@ -91,7 +91,7 @@ ul.top-nav {
 /*=========================== MAIN TITLE (BANNER) ==============================*/
 .title {
 	text-align: center;
-	background: url(../images/clouds.jpg) top center no-repeat;
+	background: url(../../images/clouds.jpg) top center no-repeat;
 	background-size: 100% auto;
 	padding: 20px 0;
 		h1 {
@@ -391,8 +391,8 @@ ul.contact li:first-child a {
 	.plan {
 		display: block;
 		width: 40%;
-    margin: 0 auto;
-    margin-bottom: 25px;
+    	margin: 0 auto;
+    	margin-bottom: 25px;
 	}
 	.plan:hover {
 	 	-webkit-transform: none;
@@ -457,7 +457,7 @@ ul.contact li:first-child a {
 	}
 	.carousel-control .icon-prev,
 	.carousel-control .icon-next {
-		    top: 40%;
+		top: 40%;
 	}
 }
 
